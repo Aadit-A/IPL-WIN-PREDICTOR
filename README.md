@@ -119,32 +119,8 @@ Open your browser at: `http://localhost:8501`
 | Target | result (1 = win, 0 = loss) |
 | Output | Probability (predict_proba) |
 
----
 
-## ☁️ Streamlit Cloud Deployment
 
-1. Push your code to GitHub (include `pipe.pkl`)
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) → **New app**
-3. Connect your GitHub repo
-4. Set **Main file path**: `app.py`
-5. Click **Deploy** — your app will be live in minutes!
-
-> ⚠️ Do NOT push the raw dataset CSVs to GitHub if they are large. The trained `pipe.pkl` is sufficient for the app to run.
-
----
-
-## 📦 GitHub Upload Steps
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: IPL Win Probability Predictor"
-git branch -M main
-git remote add origin https://github.com/yourusername/IPL-Win-Predictor.git
-git push -u origin main
-```
-
----
 
 ## 🏟️ Teams Supported
 
